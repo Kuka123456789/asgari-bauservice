@@ -9,6 +9,7 @@ export default function ContactForm() {
     email: "",
     phone: "",
     service: "",
+    documents: [] as string[],
     message: "",
     consent: false,
   });
@@ -21,11 +22,21 @@ export default function ContactForm() {
     >
   ) => {
     const { name, value, type } = e.target;
-    setFormData((prev) => ({
-      ...prev,
-      [name]:
-        type === "checkbox" ? (e.target as HTMLInputElement).checked : value,
-    }));
+    if (name === "documents") {
+      const checked = (e.target as HTMLInputElement).checked;
+      setFormData((prev) => ({
+        ...prev,
+        documents: checked
+          ? [...prev.documents, value]
+          : prev.documents.filter((d) => d !== value),
+      }));
+    } else {
+      setFormData((prev) => ({
+        ...prev,
+        [name]:
+          type === "checkbox" ? (e.target as HTMLInputElement).checked : value,
+      }));
+    }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -43,6 +54,7 @@ export default function ContactForm() {
         email: "",
         phone: "",
         service: "",
+        documents: [],
         message: "",
         consent: false,
       });
@@ -120,6 +132,52 @@ export default function ContactForm() {
           <option value="kauf-verkauf">Kauf- & Verkaufsbegleitung</option>
           <option value="sonstiges">Sonstiges</option>
         </select>
+      </div>
+
+      {/* Document Types - shown when a service is selected */}
+      {formData.service && formData.service !== "sonstiges" && (
+        <div>
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            Welche Unterlagen können Sie bereitstellen? (optional)
+          </label>
+          <div className="space-y-2">
+            {[
+              { value: "baugenehmigung", label: "Baugenehmigung / Vorbescheid" },
+              { value: "lageplan", label: "Lageplan" },
+              { value: "tragwerkplanung", label: "Tragwerkplanung" },
+              { value: "architektenplaene", label: "Architektenpläne" },
+              { value: "weitere", label: "Weitere Dokumente" },
+            ].map((doc) => (
+              <label key={doc.value} className="flex items-center gap-2 text-sm text-gray-700">
+                <input
+                  type="checkbox"
+                  name="documents"
+                  value={doc.value}
+                  checked={formData.documents.includes(doc.value)}
+                  onChange={handleChange}
+                  className="w-4 h-4 text-blue-800 border-gray-300 rounded focus:ring-blue-800"
+                />
+                {doc.label}
+              </label>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* File Upload */}
+      <div>
+        <label htmlFor="file" className="block text-sm font-medium text-gray-700 mb-2">
+          Datei anhängen (optional)
+        </label>
+        <input
+          type="file"
+          id="file"
+          name="file"
+          multiple
+          accept=".pdf,.jpg,.jpeg,.png,.dwg,.doc,.docx"
+          className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-800 focus:border-transparent transition-all text-sm text-gray-600 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-medium file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
+        />
+        <p className="text-xs text-gray-500 mt-1">PDF, JPG, PNG, DWG, DOC (max. 10 MB)</p>
       </div>
 
       {/* Message */}

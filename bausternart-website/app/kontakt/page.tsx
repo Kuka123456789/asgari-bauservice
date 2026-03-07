@@ -130,13 +130,7 @@ export default function KontaktPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-lg mb-2">Telefon</h3>
-                      <p className="mb-1">
-                        <a href="tel:+494022757606" className="text-blue-800 hover:underline">
-                          +49 (40) 227 57 606
-                        </a>
-                      </p>
                       <p>
-                        <span className="text-gray-600">Mobil: </span>
                         <a href="tel:+491728827078" className="text-blue-800 hover:underline">
                           +49 172 88 27 078
                         </a>

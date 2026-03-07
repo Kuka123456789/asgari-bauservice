@@ -116,57 +116,21 @@ export default function Footer() {
               <li>22761 Hamburg-Bahrenfeld</li>
               <li className="pt-2">
                 <a
-                  href="tel:+494022757606"
-                  className="hover:text-white transition-colors"
-                >
-                  +49 (40) 227 57 606
-                </a>
-              </li>
-              <li>
-                <a
                   href="tel:+491728827078"
                   className="hover:text-white transition-colors"
                 >
-                  Mobil: +49 172 88 27 078
+                  +49 172 88 27 078
                 </a>
               </li>
               <li className="pt-2">
                 <a
-                  href="mailto:info@bausternart.de"
+                  href="mailto:asgari@bausternart.de"
                   className="hover:text-white transition-colors"
                 >
-                  info@bausternart.de
+                  asgari@bausternart.de
                 </a>
               </li>
             </ul>
-          </div>
-        </div>
-
-        {/* Makler Services Banner */}
-        <div className="border-t border-gray-800 mt-8 pt-8">
-          <div className="bg-gradient-to-r from-blue-900/50 to-blue-800/50 rounded-xl p-6 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                </svg>
-              </div>
-              <div>
-                <p className="text-white font-semibold">Immobilien kaufen oder verkaufen?</p>
-                <p className="text-gray-300 text-sm">Besuchen Sie unsere Makler-Website für Immobilienangebote und Bewertungen.</p>
-              </div>
-            </div>
-            <a
-              href="https://www.bausternart.de"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-white text-blue-900 px-5 py-2.5 rounded-lg font-medium hover:bg-blue-50 transition-colors whitespace-nowrap"
-            >
-              Zu bausternart.de
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </a>
           </div>
         </div>
 

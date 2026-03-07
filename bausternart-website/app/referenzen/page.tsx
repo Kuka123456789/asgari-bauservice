@@ -51,6 +51,11 @@ export default function ReferenzenPage() {
       title: "Volksdorf",
       description: "In ruhiger Lage von Hamburg-Volksdorf entsteht ein zweigeschossiges Einfamilienhaus mit straßenseitiger Traufausrichtung. Auf rund 195 m² Wohnfläche. Fertigstellung Ende 2026.",
     },
+    {
+      type: "Doppelhaus & Einfamilienhaus",
+      title: "Duvenstedt",
+      description: "Realisierung eines Doppelhauses und eines Einfamilienhauses in rotem Klinker mit klarer Formensprache und familiengerechter Raumaufteilung für zeitlose, langlebige Architektur.",
+    },
   ];
 
   const geplanteeSanierung = [
