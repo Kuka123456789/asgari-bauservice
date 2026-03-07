@@ -5,43 +5,64 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Referenzen - BAU STERN ART GmbH Hamburg",
-  description: "Unsere Referenzprojekte in Hamburg: Neubau, Sanierung und Projektierung. Sehen Sie Beispiele unserer Arbeit.",
+  description: "Unsere Bauprojekte – Ergebnisse, die überzeugen. Realisierte Neubau- und Sanierungsprojekte aus Hamburg & Umgebung.",
 };
 
 export default function ReferenzenPage() {
   const neubauProjekte = [
     {
-      title: "Volksdorfer Grenzweg",
-      subtitle: "Doppelhaus & Einfamilienhaus",
-      description: "Im grünen Stadtteil Volksdorf entstand auf einem ca. 1.000 m² großen Grundstück ein Doppelhaus in zweigeschossiger Bauweise sowie ein Einfamilienhaus. Die Gesamtwohnfläche von rund 400 m² wurde so geplant, dass großzügige Gartenbereiche erhalten bleiben.",
+      type: "Einfamilienhaus",
+      title: "Volksdorf",
+      description: "Im grünen Stadtteil Hamburg-Volksdorf entstand auf einem ca. 450 m² großen Grundstück ein Einfamilienhaus mit moderner Haustechnik und hervorragender Dämmung. Mit rund 144 m² Wohnfläche wurde ein energieeffizientes Zuhause geschaffen.",
       image: "/images/project1/WhatsApp Image 2025-11-04 at 17.44.12.jpeg",
     },
     {
-      title: "Wensenbalken",
-      subtitle: "Wohnen mit Klinkercharakter",
-      description: "Ein Doppelhaus und ein Einfamilienhaus wurden realisiert. Roter Klinker, klare Linien und eine auf Familien zugeschnittene Raumaufteilung sorgen für langlebige, zeitlose Architektur.",
+      type: "Doppelhaus",
+      title: "Volksdorf",
+      description: "Im gefragten Stadtteil Hamburg-Volksdorf entstand ein zweigeschossiges Doppelhaus mit Schleppdachgauben und großzügigem Balkon in Südausrichtung. Die durchdachte Planung sorgt für helle Räume und zeitgemäße Architektur.",
       image: "/images/project1/WhatsApp Image 2025-11-04 at 17.45.18.jpeg",
     },
   ];
 
   const sanierungProjekte = [
     {
-      title: "Sülldorfer Brooksweg",
-      subtitle: "Vom Doppelhaus zum Mehrfamilienhaus",
-      description: "Ein Doppelhaus aus den 1960er Jahren in Hamburg-Rissen wurde im Rahmen einer Kernsanierung vollständig auf den aktuellen Stand gebracht. Abgesehen vom Tragwerk wurde nahezu alles erneuert. Durch eine Nutzungsänderung entstanden drei Wohneinheiten statt der ursprünglichen zwei.",
+      title: "Rissen",
+      subtitle: "Kernsanierung und Nutzungsänderung",
+      description: "Am Sülldorfer Brooksweg wurde ein Doppelhaus umfassend kernsaniert und durch eine Nutzungsänderung in drei Wohneinheiten umgewandelt. Das Projekt umfasst Dachausbau mit Giebelgauben, Vordächer und eine Dachterrasse.",
       image: "/images/projects/IMG_0896.jpg",
     },
     {
-      title: "Saseler Chaussee",
-      subtitle: "Komplette Wohnungssanierung",
-      description: "Eine 1-Zimmer-Wohnung mit ca. 45 m² wurde innerhalb weniger Wochen umfassend saniert: Wände und Decken neu aufgebaut, Bodenbeläge und Innentüren erneuert, Bad und Küche komplett neu ausgeführt.",
+      title: "Sasel",
+      subtitle: "Wohnungssanierung",
+      description: "Komplette Sanierung einer 1-Zimmer-Wohnung mit ca. 45 m² inklusive neuer Wand- und Deckenflächen, Bodenbeläge, Innentüren sowie komplett erneuertem Bad und Küche.",
       image: "/images/projects/IMG_0522.jpg",
     },
     {
-      title: "Saseler Straße",
-      subtitle: "Reihenhaus mit neuer Substanz",
-      description: "Ein Reihenhaus aus den 1960er Jahren wurde kernsaniert und gleichzeitig funktional sowie optisch modernisiert. Küche, Bäder, Oberflächen und Haustechnik wurden auf einen einheitlich hochwertigen Stand gebracht.",
+      title: "Eppendorf",
+      subtitle: "Dachsanierung",
+      description: "Im Bestand eines Wohngebäudes in Hamburg-Eppendorf wurde das Dach vollständig überarbeitet mit Zimmermannsarbeiten, Aufsparrendämmung und neuer Dacheindeckung.",
       image: "/images/projects/IMG_4377.jpg",
+    },
+  ];
+
+  const geplanteNeubau = [
+    {
+      type: "Einfamilienhaus",
+      title: "Volksdorf",
+      description: "In ruhiger Lage von Hamburg-Volksdorf entsteht ein zweigeschossiges Einfamilienhaus mit straßenseitiger Traufausrichtung. Auf rund 195 m² Wohnfläche. Fertigstellung Ende 2026.",
+    },
+  ];
+
+  const geplanteeSanierung = [
+    {
+      title: "Schnelsen",
+      subtitle: "Kernsanierung",
+      description: "Am Lüttenredder ist eine Kernsanierung geplant mit neuer Klinkerfassade, modernen Fenstern und Türen sowie Fußbodenheizung.",
+    },
+    {
+      title: "Fuhlsbüttel",
+      subtitle: "Dachsanierung",
+      description: "Am Lupinenkamp ist eine Dachsanierung vorgesehen, inklusive zweier Schleppdachgauben, Dachinnenausbau und neuer Dacheindeckung.",
     },
   ];
 
@@ -52,17 +73,17 @@ export default function ReferenzenPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Referenzen & Projekte
+              Unsere Bauprojekte – Ergebnisse, die überzeugen!
             </h1>
             <p className="text-xl text-blue-100">
-              Unsere Projekte zeigen, wie aus Ideen Realität wird.
-              Entdecken Sie ausgewählte Neubau- und Sanierungsprojekte in Hamburg und Umgebung.
+              Unsere Referenzen zeigen, wie wir Bauprojekte erfolgreich umgesetzt haben –
+              zuverlässig, strukturiert und mit Fokus auf Ihren Nutzen.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Neubau Projekte */}
+      {/* Neubau Projekte - Realisiert */}
       <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
@@ -70,7 +91,7 @@ export default function ReferenzenPage() {
               Neubau
             </span>
             <h2 className="text-3xl md:text-4xl font-bold">
-              Neubauprojekte
+              Realisierte Projekte
             </h2>
           </div>
 
@@ -86,7 +107,7 @@ export default function ReferenzenPage() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-4 right-4">
-                    <p className="text-orange-300 text-sm font-medium">{projekt.subtitle}</p>
+                    <p className="text-orange-300 text-sm font-medium">{projekt.type}</p>
                     <h3 className="text-xl font-bold text-white">{projekt.title}</h3>
                   </div>
                 </div>
@@ -95,6 +116,22 @@ export default function ReferenzenPage() {
                 </div>
               </Card>
             ))}
+          </div>
+
+          {/* Geplante Neubau Projekte */}
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold mb-8">Geplante Projekte</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {geplanteNeubau.map((projekt, index) => (
+                <Card key={index}>
+                  <div className="p-6">
+                    <p className="text-sm text-orange-600 font-medium mb-1">{projekt.type}</p>
+                    <h4 className="text-xl font-bold mb-3">{projekt.title}</h4>
+                    <p className="text-gray-600 text-sm">{projekt.description}</p>
+                  </div>
+                </Card>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -107,7 +144,7 @@ export default function ReferenzenPage() {
               Sanierung
             </span>
             <h2 className="text-3xl md:text-4xl font-bold">
-              Sanierungsprojekte
+              Realisierte Projekte
             </h2>
           </div>
 
@@ -133,6 +170,22 @@ export default function ReferenzenPage() {
               </Card>
             ))}
           </div>
+
+          {/* Geplante Sanierung Projekte */}
+          <div className="mt-16">
+            <h3 className="text-2xl font-bold mb-8">Geplante Projekte</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {geplanteeSanierung.map((projekt, index) => (
+                <Card key={index}>
+                  <div className="p-6">
+                    <p className="text-sm text-blue-600 font-medium mb-1">{projekt.subtitle}</p>
+                    <h4 className="text-xl font-bold mb-3">{projekt.title}</h4>
+                    <p className="text-gray-600 text-sm">{projekt.description}</p>
+                  </div>
+                </Card>
+              ))}
+            </div>
+          </div>
         </div>
       </section>
 
@@ -144,10 +197,10 @@ export default function ReferenzenPage() {
               Einblicke
             </span>
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Aus unserer Arbeit
+              Bauprojekte im Überblick
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Von der Baustelle bis zum fertigen Ergebnis – Einblicke in unsere Projekte.
+              Realisierte Neubau- und Sanierungsprojekte aus Hamburg & Umgebung
             </p>
           </div>
 
@@ -206,13 +259,9 @@ export default function ReferenzenPage() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Vorher – Nachher
             </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Unsere Projekte zeigen die Transformation von der ersten Idee bis zum fertigen Ergebnis.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Neubau Vorher-Nachher */}
             <Card>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-4 text-orange-600">Neubau</h3>
@@ -236,7 +285,6 @@ export default function ReferenzenPage() {
               </div>
             </Card>
 
-            {/* Sanierung Vorher-Nachher */}
             <Card>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-4 text-blue-600">Sanierung</h3>
@@ -260,7 +308,6 @@ export default function ReferenzenPage() {
               </div>
             </Card>
 
-            {/* Projektierung Vorher-Nachher */}
             <Card>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-4 text-purple-600">Projektierung</h3>
@@ -290,14 +337,16 @@ export default function ReferenzenPage() {
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-blue-900 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-lg text-blue-200 mb-4">Persönlich. Transparent. Ohne Verpflichtung.</p>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ähnliches Projekt planen?
+            Bereit für den nächsten Schritt?
           </h2>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8">
-            Gerne besprechen wir Ihr Vorhaben in einem ersten, unverbindlichen Gespräch.
+            Sprechen Sie mit uns über Ihr Bauprojekt. Wir beraten Sie persönlich und unverbindlich
+            zu Ihrem Vorhaben.
           </p>
           <Button href="/kontakt" variant="secondary" size="lg">
-            Jetzt Kontakt aufnehmen
+            Kontakt aufnehmen
           </Button>
         </div>
       </section>

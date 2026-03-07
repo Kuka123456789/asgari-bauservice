@@ -124,43 +124,47 @@ export default function NeubauPage() {
       {/* Example Projects */}
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-            Beispielprojekte Neubau
-          </h2>
+          <div className="mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+              Realisierte Projekte
+            </h2>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card>
               <div className="p-6">
+                <p className="text-sm text-orange-600 font-medium mb-1">Einfamilienhaus</p>
                 <h3 className="text-xl font-bold mb-3">Volksdorf</h3>
-                <p className="text-sm text-orange-600 font-medium mb-3">Doppelhaus & Einfamilienhaus</p>
                 <p className="text-gray-600 text-sm">
-                  Im grünen Stadtteil Volksdorf entstand auf einem ca. 1.000 m² großen Grundstück
-                  ein Doppelhaus in zweigeschossiger Bauweise sowie ein Einfamilienhaus.
-                  Die Gesamtwohnfläche von rund 400 m² wurde so geplant, dass großzügige
-                  Gartenbereiche erhalten bleiben.
+                  Im grünen Stadtteil Hamburg-Volksdorf entstand auf einem ca. 450 m² großen
+                  Grundstück ein Einfamilienhaus mit moderner Haustechnik und hervorragender
+                  Dämmung. Mit rund 144 m² Wohnfläche wurde ein energieeffizientes Zuhause
+                  geschaffen, das hohen Wohnkomfort und zeitgemäßes Bauen vereint.
                 </p>
               </div>
             </Card>
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Duvenstedt</h3>
-                <p className="text-sm text-orange-600 font-medium mb-3">Wohnen mit Klinkercharakter</p>
+                <p className="text-sm text-orange-600 font-medium mb-1">Einfamilienhaus</p>
+                <h3 className="text-xl font-bold mb-3">Volksdorf</h3>
                 <p className="text-gray-600 text-sm">
-                  Auch hier wurden ein Doppelhaus und ein Einfamilienhaus realisiert.
-                  Roter Klinker, klare Linien und eine auf Familien zugeschnittene Raumaufteilung
-                  sorgen für langlebige, zeitlose Architektur.
+                  In ruhiger Lage von Hamburg-Volksdorf entsteht ein zweigeschossiges Einfamilienhaus
+                  mit straßenseitiger Traufausrichtung. Auf rund 195 m² Wohnfläche verbindet ein
+                  Durchgang über eine Schleppdachgaube das Dachgeschoss. Die Fertigstellung ist für
+                  Ende 2026 geplant.
                 </p>
               </div>
             </Card>
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Referenzobjekt</h3>
-                <p className="text-sm text-orange-600 font-medium mb-3">Musterhaus</p>
+                <p className="text-sm text-orange-600 font-medium mb-1">Doppelhaus</p>
+                <h3 className="text-xl font-bold mb-3">Volksdorf</h3>
                 <p className="text-gray-600 text-sm">
-                  Dieses Objekt dient als Referenz für unsere Bauqualität und Grundrissgestaltung.
-                  Hier zeigen wir, wie aus einem Konzept ein stimmiger, alltagstauglicher Wohnraum wird.
+                  Im gefragten Stadtteil Hamburg-Volksdorf entstand ein zweigeschossiges Doppelhaus
+                  mit Schleppdachgauben und großzügigem Balkon in Südausrichtung. Die durchdachte
+                  Planung sorgt für helle Räume, hohen Wohnkomfort und zeitgemäße Architektur.
                 </p>
               </div>
             </Card>

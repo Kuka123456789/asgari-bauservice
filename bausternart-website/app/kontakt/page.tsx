@@ -99,10 +99,10 @@ export default function KontaktPage() {
                     <div>
                       <h3 className="font-bold text-lg mb-2">E-Mail</h3>
                       <a
-                        href="mailto:info@bausternart.de"
+                        href="mailto:asgari@bausternart.de"
                         className="text-blue-800 hover:underline"
                       >
-                        info@bausternart.de
+                        asgari@bausternart.de
                       </a>
                     </div>
                   </div>

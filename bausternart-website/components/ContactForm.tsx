@@ -117,7 +117,7 @@ export default function ContactForm() {
           <option value="neubau">Neubau</option>
           <option value="sanierung">Sanierung</option>
           <option value="projektierung">Projektierung</option>
-          <option value="kauf-ankauf">Kauf & Ankauf</option>
+          <option value="kauf-verkauf">Kauf- & Verkaufsbegleitung</option>
           <option value="sonstiges">Sonstiges</option>
         </select>
       </div>

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Sanierung - BAU STERN ART GmbH Hamburg",
-  description: "Kernsanierung, Modernisierung und Renovierung in Hamburg. Teil- und Kernsanierungen von Bestandsimmobilien mit strukturierter Projektsteuerung.",
+  description: "Sanierung, Modernisierung und Dachsanierung in Hamburg. Sanierungen von Bestandsimmobilien mit strukturierter Projektsteuerung.",
 };
 
 export default function SanierungPage() {
@@ -49,7 +49,7 @@ export default function SanierungPage() {
                   "Bestandsaufnahme und Einschätzung des Sanierungsumfangs",
                   "Entwicklung eines technisch und wirtschaftlich sinnvollen Sanierungskonzepts",
                   "Koordination von Abbruch, Rohbau, Ausbau und Haustechnik",
-                  "Grundrissanpassungen, Innenausbau, Hochbau, insbesondere Zimmererarbeiten",
+                  "Grundrissanpassungen, Innenausbau, Hochbau, insbesondere Zimmerer- und Dacheindeckungsarbeiten",
                   "Energetische Sanierung (Dämmung, Fenster, Heizung in Abstimmung mit Fachplanern)",
                   "Organisation von Abnahmen und Dokumentation der Maßnahmen",
                 ].map((item, index) => (
@@ -93,7 +93,7 @@ export default function SanierungPage() {
                   />
                 </div>
                 <div className="p-6 bg-gradient-to-br from-blue-50 to-blue-100">
-                  <h3 className="text-xl font-bold mb-4">Vorher–Nachher: Sanierung</h3>
+                  <h3 className="text-xl font-bold mb-4">Vorher–Nachher: Kernsanierung</h3>
 
                   <div className="mb-4">
                     <h4 className="font-semibold text-gray-900 mb-2">Vorher:</h4>
@@ -124,54 +124,102 @@ export default function SanierungPage() {
       <section className="py-16 md:py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-            Beispielprojekte Sanierung
+            Realisierte Projekte
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Rissen</h3>
-                <p className="text-sm text-blue-600 font-medium mb-3">Vom Doppelhaus zum Mehrfamilienhaus</p>
+                <h3 className="text-xl font-bold mb-1">Rissen</h3>
+                <p className="text-sm text-blue-600 font-medium mb-3">Kernsanierung und Nutzungsänderung</p>
                 <p className="text-gray-600 text-sm">
-                  Ein Doppelhaus aus den 1960er Jahren in Hamburg-Rissen wurde im Rahmen einer
-                  Kernsanierung vollständig auf den aktuellen Stand gebracht. Abgesehen vom Tragwerk
-                  wurde nahezu alles erneuert. Durch eine Nutzungsänderung entstanden drei Wohneinheiten
-                  statt der ursprünglichen zwei.
+                  Am Sülldorfer Brooksweg wurde ein Doppelhaus umfassend kernsaniert und durch eine
+                  Nutzungsänderung in drei Wohneinheiten umgewandelt. Das Projekt umfasst
+                  großzügige Parkflächen, einen separaten Hauswirtschaftsraumbereich, den
+                  Dachausbau mit Giebelgauben, zwei abgestimmte Vordächer sowie eine Dachterrasse
+                  für zusätzlichen Wohnkomfort.
                 </p>
               </div>
             </Card>
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Sasel</h3>
-                <p className="text-sm text-blue-600 font-medium mb-3">Komplette Wohnungssanierung</p>
+                <h3 className="text-xl font-bold mb-1">Sasel</h3>
+                <p className="text-sm text-blue-600 font-medium mb-3">Wohnungssanierung</p>
                 <p className="text-gray-600 text-sm">
-                  Eine 1-Zimmer-Wohnung mit ca. 45 m² wurde innerhalb weniger Wochen umfassend saniert:
-                  Wände und Decken neu aufgebaut, Bodenbeläge und Innentüren erneuert,
-                  Bad und Küche komplett neu ausgeführt.
+                  In der Saseler Chaussee erfolgte die komplette Sanierung einer 1-Zimmer-Wohnung.
+                  Ausgeführt wurden ein neuer Hauptstrang im Badezimmer, die vollständige
+                  Badsanierung (Grob- und Feinmontage), eine neue Küche, das Entfernen alter Tapeten,
+                  Neuputz von Wänden und Decken sowie die Verlegung neuer Bodenbeläge.
                 </p>
               </div>
             </Card>
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Sasel</h3>
-                <p className="text-sm text-blue-600 font-medium mb-3">Reihenhaus mit neuer Substanz</p>
+                <h3 className="text-xl font-bold mb-1">Eppendorf</h3>
+                <p className="text-sm text-blue-600 font-medium mb-3">Dachsanierung</p>
                 <p className="text-gray-600 text-sm">
-                  Ein Reihenhaus aus den 1960er Jahren wurde kernsaniert und gleichzeitig
-                  funktional sowie optisch modernisiert. Küche, Bäder, Oberflächen und Haustechnik
-                  wurden auf einen einheitlich hochwertigen Stand gebracht.
+                  Im Bestand eines Wohngebäudes in Hamburg-Eppendorf wurde das Dach vollständig
+                  überarbeitet. Ausgeführt wurden Zimmermannsarbeiten mit Konter- und
+                  Dachlattenverlegung inklusive aller Nebenarbeiten, ergänzt durch Aufsparrendämmung
+                  und neue Dacheindeckung zur dauerhaften Sicherung der Bausubstanz.
                 </p>
               </div>
             </Card>
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Halstenbek</h3>
-                <p className="text-sm text-blue-600 font-medium mb-3">Komplettsanierung</p>
+                <h3 className="text-xl font-bold mb-1">Fuhlsbüttel</h3>
+                <p className="text-sm text-blue-600 font-medium mb-3">Dachsanierung</p>
                 <p className="text-gray-600 text-sm">
-                  Ein in die Jahre gekommenes Bad mit technischen Mängeln wurde komplett erneuert:
-                  Modernes Bad mit erneuerter Installation, Abdichtung und hochwertiger Ausstattung.
+                  Am Lupinenkamp in Hamburg-Hummelsbüttel lag der Schwerpunkt auf der
+                  konstruktiven Erneuerung des Dachaufbaus. Neben der Aufsparrendämmung umfasste
+                  das Projekt Zimmermannsarbeiten wie Konter- und Dachlatten, alle begleitenden
+                  Arbeiten sowie den Bau von Schleppdachgauben für zusätzliches Licht und Raum.
+                </p>
+              </div>
+            </Card>
+          </div>
+
+          {/* Leistungsschwerpunkt */}
+          <div className="mt-12 p-8 bg-blue-50 rounded-2xl border-l-4 border-blue-600">
+            <h3 className="text-xl font-bold mb-3 text-gray-900">Leistungsschwerpunkt</h3>
+            <p className="text-gray-700">
+              Dachsanierungen und Dachneubauten bilden einen zentralen Bestandteil unseres Kerngeschäfts.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Geplante Projekte */}
+      <section className="py-16 md:py-24">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            Geplante Projekte
+          </h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <Card>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-1">Schnelsen</h3>
+                <p className="text-sm text-blue-600 font-medium mb-3">Kernsanierung</p>
+                <p className="text-gray-600 text-sm">
+                  Im ruhigen Wohngebiet Hamburg-Schnelsen ist am Lüttenredder eine Kernsanierung
+                  geplant. Geplant sind eine neue Klinkerfassade, moderne Fenster und Türen sowie das
+                  Einfräsen einer Fußbodenheizung für mehr Komfort und nachhaltige Technik.
+                </p>
+              </div>
+            </Card>
+
+            <Card>
+              <div className="p-6">
+                <h3 className="text-xl font-bold mb-1">Fuhlsbüttel</h3>
+                <p className="text-sm text-blue-600 font-medium mb-3">Dachsanierung</p>
+                <p className="text-gray-600 text-sm">
+                  Im beliebten Wohnumfeld Hamburg-Fuhlsbüttel am Lupinenkamp ist eine
+                  Dachsanierung vorgesehen, inklusive zweier Schleppdachgauben für mehr Licht und
+                  Raumgefühl sowie Dachinnenausbau und neuer Dacheindeckung.
                 </p>
               </div>
             </Card>
@@ -180,13 +228,13 @@ export default function SanierungPage() {
       </section>
 
       {/* Process Gallery */}
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
             Einblicke in unsere Arbeit
           </h2>
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-            Von der Dachsanierung über den Innenausbau bis zur fertigen Küche –
+            Vom Hochbau über den Innenausbau bis hin zur fertigen Dacheindeckung –
             wir begleiten jedes Projekt mit Sorgfalt und Fachkompetenz.
           </p>
 
@@ -224,12 +272,12 @@ export default function SanierungPage() {
             <div className="relative h-48 md:h-64 rounded-xl overflow-hidden group">
               <Image
                 src="/images/projects/IMG_0522.jpg"
-                alt="Moderne Küche nach Sanierung"
+                alt="Fertiggestellter Innenausbau"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-              <p className="absolute bottom-3 left-3 text-white text-sm font-medium">Fertige Küche</p>
+              <p className="absolute bottom-3 left-3 text-white text-sm font-medium">Innenausbau</p>
             </div>
           </div>
         </div>

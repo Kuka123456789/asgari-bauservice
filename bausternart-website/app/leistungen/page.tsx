@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Leistungen - BAU STERN ART GmbH Hamburg",
-  description: "Neubau, Sanierung, Projektierung und Kauf & Ankauf in Hamburg. Professionelle Baudienstleistungen als Generalübernehmer aus einer Hand.",
+  description: "Unsere Leistungen – Planung, Bau & Sanierung. Neubau, Sanierung, Projektierung und Kauf- & Verkaufsbegleitung in Hamburg.",
 };
 
 export default function LeistungenPage() {
@@ -14,7 +14,8 @@ export default function LeistungenPage() {
       href: "/leistungen/neubau",
       title: "Neubau",
       subtitle: "Wohnraum mit Substanz und Konzept",
-      description: "Wir realisieren Ein- und Mehrfamilienhäuser, Doppel- und Reihenhäuser sowie kleinere Wohnanlagen. Als Generalunternehmer koordinieren wir alle Schritte von der Planung bis zur schlüsselfertigen Übergabe.",
+      description: "Neubau von Wohnimmobilien, von Einfamilienhäusern bis Mehrfamilienhäuser, termingerecht und qualitativ hochwertig umgesetzt. Als Generalunternehmer koordinieren wir alle Schritte von der Planung bis zur schlüsselfertigen Übergabe.",
+      nutzen: "Ihr Bauprojekt wird planbar, strukturiert und zuverlässig realisiert.",
       color: "orange",
       features: [
         "Ein- und Mehrfamilienhäuser",
@@ -25,22 +26,24 @@ export default function LeistungenPage() {
     },
     {
       href: "/leistungen/sanierung",
-      title: "Sanierung",
+      title: "Sanierung & Modernisierung",
       subtitle: "Bestehendes erhalten, Werte steigern",
-      description: "Sanierungen im Wohnbereich. Wir entwickeln ein technisch und wirtschaftlich sinnvolles Sanierungskonzept und koordinieren alle Gewerke zentral.",
+      description: "Sanierung & Umbau bestehender Gebäude – funktional und optisch modernisiert mit nachhaltiger Wertsteigerung. Wir entwickeln ein technisch und wirtschaftlich sinnvolles Sanierungskonzept.",
+      nutzen: "Alte Substanz wird zukunftsfähig und energieeffizient.",
       color: "blue",
       features: [
-        "Kernsanierungen",
+        "Dachsanierung",
         "Modernisierung & Renovierung",
         "Energetische Sanierung",
-        "Dachsanierung",
+        "Zimmererarbeiten",
       ],
     },
     {
       href: "/leistungen/projektierung",
-      title: "Projektierung",
+      title: "Projektierung & Planung",
       subtitle: "Aus einer Idee wird ein tragfähiges Bauprojekt",
-      description: "Wir entwickeln aus Ihrer Idee ein strukturiertes Projekt mit klaren Zahlen, Abläufen und Entscheidungsgrundlagen. Grundstück, Bestand, Baurecht, Nutzung, Baukosten und Zeitplanung.",
+      description: "Effiziente Projektplanung und Kostenkalkulation. Wir entwickeln aus Ihrer Idee ein strukturiertes Projekt – mit klaren Zahlen, Abläufen und Entscheidungsgrundlagen.",
+      nutzen: "Sie wissen von Anfang an, worauf es ankommt, ohne Überraschungen erleben zu müssen.",
       color: "purple",
       features: [
         "Planerstellung & Visualisierung",
@@ -52,8 +55,9 @@ export default function LeistungenPage() {
     {
       href: "/leistungen/kauf-ankauf",
       title: "Kauf- & Verkaufsbegleitung",
-      subtitle: "Bestandsimmobilien mit Entwicklungspotenzial",
+      subtitle: "Sicher entscheiden – mit baulicher Klarheit",
       description: "Wir prüfen Bestandsimmobilien und Grundstücke auf ihr bauliches Potenzial, schätzen den Sanierungsaufwand ab und beraten Sie zum Kauf oder Verkauf.",
+      nutzen: "",
       color: "green",
       features: [
         "Objektprüfung & Analyse",
@@ -81,12 +85,12 @@ export default function LeistungenPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Unsere Leistungen
+              Unsere Leistungen – Planung, Bau & Sanierung
             </h1>
             <p className="text-xl text-blue-100">
-              Neubau, Sanierung, Projektierung und Kauf- & Verkaufsbegleitung –
-              wir bieten Ihnen professionelle Baudienstleistungen aus einer Hand.
-              Als Generalübernehmer koordinieren wir alle Schritte für Sie.
+              Wir realisieren Ihre Bauvorhaben in Hamburg und Umgebung von der Projektplanung
+              über Neubau bis zur Sanierung. Klare Abläufe, transparente Kosten und ein
+              Ansprechpartner für Ihr gesamtes Projekt.
             </p>
           </div>
         </div>
@@ -128,7 +132,12 @@ export default function LeistungenPage() {
 
                       <h2 className="text-2xl font-bold mb-2 text-gray-900">{leistung.title}</h2>
                       <p className={`text-sm font-medium ${colors.text} mb-4`}>{leistung.subtitle}</p>
-                      <p className="text-gray-600 mb-6">{leistung.description}</p>
+                      <p className="text-gray-600 mb-4">{leistung.description}</p>
+                      {leistung.nutzen && (
+                        <p className="text-sm font-medium text-gray-800 mb-6">
+                          Nutzen: {leistung.nutzen}
+                        </p>
+                      )}
 
                       <ul className="space-y-2 mb-6">
                         {leistung.features.map((feature, fIndex) => (
@@ -160,15 +169,14 @@ export default function LeistungenPage() {
       <section className="py-16 md:py-24 bg-gray-900 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Bereit für Ihr Bauprojekt?
+            Ihr Bauprojekt starten?
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
-            Kontaktieren Sie uns für eine unverbindliche Beratung. Gemeinsam realisieren wir
-            Ihr Neubau-, Sanierungs- oder Projektierungsprojekt.
+            Wir beraten Sie kostenlos und unverbindlich zu Ihrem Vorhaben.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button href="/kontakt" variant="secondary">
-              Jetzt Kontakt aufnehmen
+              Jetzt Anfrage stellen
             </Button>
             <Button href="/referenzen" variant="outline" className="bg-white/10 border-white text-white hover:bg-white hover:text-gray-900">
               Referenzen ansehen

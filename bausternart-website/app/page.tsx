@@ -36,25 +36,28 @@ export default function Home() {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                <span className="text-white">Neubau, Sanierung &</span>
+                <span className="text-white">Ihr Baupartner in Hamburg –</span>
                 <span className="block bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-300 bg-clip-text text-transparent mt-2">
-                  Projektierung
+                  Neubau, Sanierung &
                 </span>
-                <span className="text-white">aus einer Hand</span>
+                <span className="text-white">Projektierung aus einer Hand</span>
               </h1>
 
               <p className="text-xl text-blue-100/90 mb-4 leading-relaxed">
                 Bau Stern ART GmbH – Ihr Bauunternehmen für hochwertige Bauprojekte in Hamburg und Umgebung.
               </p>
+              <p className="text-lg text-blue-100/80 mb-4 leading-relaxed font-semibold">
+                Verlässlich planen. Hochwertig bauen. Transparent umsetzen.
+              </p>
               <p className="text-lg text-blue-100/80 mb-8 leading-relaxed">
-                Als Generalübernehmer entwickeln und realisieren wir Wohn- und Gewerbeimmobilien
-                mit hoher Sorgfalt und Klarheit – von der ersten Idee bis zur schlüsselfertigen Übergabe.
+                Als erfahrener Generalübernehmer begleiten wir Ihr Bauvorhaben persönlich – vom ersten
+                Gespräch bis zur schlüsselfertigen Übergabe.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button href="/kontakt" variant="secondary" size="lg">
                   <ChatIcon className="w-5 h-5 mr-2 inline" />
-                  Projekt anfragen
+                  Jetzt Projekt kostenlos besprechen
                 </Button>
                 <Button
                   href="/referenzen"
@@ -100,7 +103,7 @@ export default function Home() {
               Unsere Expertise
             </span>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-              Unsere Schwerpunkte
+              Unser Fokus
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Wir verbinden technische Kompetenz mit strukturiertem Projektmanagement.
@@ -118,9 +121,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Neubau</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900">Neubau von Ein- & Mehrfamilienhäusern</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Ein- und Mehrfamilienhäuser, Doppel- und Reihenhäuser sowie kleinere Wohnanlagen.
+                    Von der Planung bis zur Ausführung, maßgeschneidert nach Ihren Wünschen, sorgen wir für Kostenkontrolle, Terminsicherheit und hochwertige Bauqualität.
                   </p>
                 </div>
               </Card>
@@ -136,9 +139,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Sanierung</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900">Sanierung & Umbau</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Kernsanierungen, Umbauten und Modernisierungen von Bestandsimmobilien.
+                    Modernisierung mit Wertsteigerung und effizienter Umsetzung. Energetisch, technisch und optisch. Ziel ist die nachhaltige Wertsteigerung Ihrer Immobilie bei minimaler Bauzeit.
                   </p>
                 </div>
               </Card>
@@ -153,15 +156,15 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Projektierung</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900">Projektierung & Bauleitung</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Entwicklung tragfähiger Konzepte inklusive Kosten-, Zeit- und Ablaufplanung.
+                    Unsere Projektierung umfasst Konzeptentwicklung, Kostenplanung und Baukoordination. Als Generalübernehmer stellen wir sicher, dass alle Gewerke effizient zusammenarbeiten.
                   </p>
                 </div>
               </Card>
             </Link>
 
-            {/* Kauf & Ankauf */}
+            {/* Kauf & Entwicklung */}
             <Link href="/leistungen/kauf-ankauf">
               <Card className="group h-full hover:shadow-xl transition-shadow">
                 <div className="p-6">
@@ -170,9 +173,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Kauf- & Verkaufsbegleitung</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900">Kauf & Entwicklung</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Wir schätzen den Sanierungsaufwand ab und beraten Sie zum Kauf oder Verkauf.
+                    Wir unterstützen beim Kauf von Grundstücken und Immobilien in Hamburg und Umgebung und prüfen deren bauliches Entwicklungspotenzial.
                   </p>
                 </div>
               </Card>
@@ -186,7 +189,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-              Ihr Vorteil mit Bau Stern ART
+              Ihr Vorsprung mit uns als Bauunternehmen in Hamburg
             </h2>
           </div>
 
@@ -194,28 +197,28 @@ export default function Home() {
             {[
               {
                 icon: UsersIcon,
-                title: "Generalübernehmer",
-                desc: "Ein verantwortlicher Partner, der Planung, Ausschreibung und Ausführung koordiniert",
+                title: "Generalübernehmer-Prinzip",
+                desc: "Ein zentraler Auftragnehmer für Planung, Koordination und Umsetzung",
               },
               {
                 icon: CheckCircleIcon,
-                title: "Klare Kosten",
-                desc: "Transparente Kalkulation und realistische Budgets statt vager Schätzungen",
+                title: "Transparente Kosten",
+                desc: "Realistische Kalkulationen ohne versteckte Überraschungen",
               },
               {
                 icon: RocketIcon,
-                title: "Verbindliche Abläufe",
-                desc: "Strukturierte Projektsteuerung und abgestimmte Zeitpläne",
+                title: "Zuverlässige Terminplanung",
+                desc: "Strukturierte Abläufe und konsequente Bauüberwachung",
               },
               {
                 icon: StarIcon,
-                title: "Planbare Qualität",
-                desc: "Zusammenarbeit mit bewährten Handwerksbetrieben aus der Region",
+                title: "Regionale Expertise",
+                desc: "Erfahrung mit Bauprojekten in Hamburg und Umgebung",
               },
               {
                 icon: ChatIcon,
-                title: "Kommunikation auf Augenhöhe",
-                desc: "Kurze Entscheidungswege, direkte Erreichbarkeit, ehrliche Aussagen",
+                title: "Persönliche Betreuung",
+                desc: "Direkte Kommunikation, kurze Wege und feste Ansprechpartner",
               },
               {
                 icon: TrophyIcon,
@@ -248,36 +251,31 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              So läuft ein Projekt mit der Bau Stern ART GmbH
+              So läuft Ihr Bauprojekt mit unserem Bauunternehmen ab
             </h2>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {[
               {
                 step: "1",
-                title: "Erstgespräch & Bestandsaufnahme",
-                desc: "Gemeinsames Kennenlernen, Klärung Ihrer Ziele, Budgetrahmen und Prüfung der Vorortgegebenheiten.",
+                title: "Erstgespräch & Beratung",
+                desc: "Wir hören zu, analysieren Ihre Anforderungen und besprechen erste Möglichkeiten. Klärung von Budgetrahmen und Prüfung der Vorortgegebenheiten.",
               },
               {
                 step: "2",
-                title: "Projektierung & Konzept",
-                desc: "Entwicklung eines baulich und wirtschaftlich sinnvollen Konzepts mit ersten Kosten- und Terminrahmen.",
+                title: "Planung & Projektierung",
+                desc: "Erstellung eines realistischen Kosten- und Zeitplans. Koordination aller Gewerke und Vorbereitung der Bauphase.",
               },
               {
                 step: "3",
-                title: "Detailplanung & Vorbereitung",
-                desc: "Ausarbeitung von Plänen, Einbindung von Fachplanern, Vorbereitung von Genehmigungen und Vergaben.",
+                title: "Umsetzung & Bauleitung",
+                desc: "Professionelle Ausführung mit laufender Qualitäts- und Terminkontrolle.",
               },
               {
                 step: "4",
-                title: "Bauausführung",
-                desc: "Koordination aller Gewerke, laufende Kontrolle von Qualität, Terminen und Kosten.",
-              },
-              {
-                step: "5",
-                title: "Übergabe & Nachbetreuung",
-                desc: "Abnahme, Dokumentation und bei Bedarf weitere Begleitung bei späteren Anpassungen.",
+                title: "Fertigstellung & Übergabe",
+                desc: "Schlüsselfertige Übergabe – transparent, geprüft und termingerecht.",
               },
             ].map((phase) => (
               <div key={phase.step} className="text-center group">
@@ -301,7 +299,7 @@ export default function Home() {
                 Unsere Philosophie
               </span>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-                Wer wir sind und wie wir arbeiten
+                Bauen heißt Vertrauen
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Wir sind ein ambitioniertes Team aus jungen und erfahrenen Fachleuten.
@@ -309,9 +307,10 @@ export default function Home() {
                 und Offenheit in der Kommunikation zu leben.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Fehler entstehen dort, wo Informationen fehlen. Deshalb setzen wir auf klare Absprachen,
-                nachvollziehbare Entscheidungen und transparente Abläufe. Sie wissen jederzeit,
-                wo Ihr Projekt steht und welche Schritte als Nächstes anstehen.
+                Deshalb legen wir größten Wert auf klare Absprachen, nachvollziehbare
+                Entscheidungen und eine partnerschaftliche Zusammenarbeit.
+                Unser Ziel ist nicht nur ein fertiges Gebäude, sondern ein Ergebnis, mit dem Sie
+                langfristig zufrieden sind.
               </p>
               <div className="p-6 bg-blue-50 rounded-xl border-l-4 border-blue-600">
                 <p className="text-lg font-medium text-gray-900 italic">
@@ -349,16 +348,19 @@ export default function Home() {
                 Starten Sie Ihr Projekt
               </span>
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-                Gerne besprechen wir Ihr Vorhaben
+                Bereit, Ihr Bauprojekt zu starten?
               </h2>
-              <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8">
-                Ob Neubau, Sanierung, Projektierung oder Kauf- & Verkaufsbegleitung
-                mit Entwicklungspotenzial – wir freuen uns auf ein erstes, unverbindliches Gespräch.
+              <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-4">
+                Lassen Sie uns unverbindlich über Ihr Vorhaben sprechen.
+              </p>
+              <p className="text-lg text-blue-100 max-w-2xl mx-auto mb-8">
+                Wir realisieren Bauprojekte in Hamburg und Umland, ob von Altona, Eimsbüttel,
+                Wandsbek über Harburg, Bergedorf oder Umgebung. Wir beraten Sie kostenlos und unverbindlich.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button href="/kontakt" variant="secondary" size="lg">
                   <PhoneIcon className="w-5 h-5 mr-2 inline" />
-                  Jetzt Kontakt aufnehmen
+                  Jetzt Projekt anfragen
                 </Button>
                 <Button
                   href="/referenzen"
@@ -378,13 +380,13 @@ export default function Home() {
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>+49 (40) 227 57 606</span>
+                    <span>+49 172 88 27 078</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <span>info@bausternart.de</span>
+                    <span>asgari@bausternart.de</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
