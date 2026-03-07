@@ -73,7 +73,7 @@ export default function ProjektierungPage() {
 
               <p className="text-gray-600 mb-8">
                 Ziel ist es, Ihnen eine Entscheidungsgrundlage zu liefern, auf deren Basis Sie sicher sagen können:
-                Dieses Projekt setzen wir um – oder nicht.
+                Dieses Projekt setzen wir um!
               </p>
 
               <Button href="/kontakt" variant="primary" className="bg-purple-600 hover:bg-purple-700">
@@ -204,20 +204,6 @@ export default function ProjektierungPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-purple-800 text-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Ihr Projekt strukturiert planen?
-          </h2>
-          <p className="text-xl text-purple-100 max-w-2xl mx-auto mb-8">
-            Gerne besprechen wir Ihr Vorhaben in einem ersten, unverbindlichen Gespräch.
-          </p>
-          <Button href="/kontakt" variant="secondary">
-            Jetzt Kontakt aufnehmen
-          </Button>
-        </div>
-      </section>
     </div>
   );
 }

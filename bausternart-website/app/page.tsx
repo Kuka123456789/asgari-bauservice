@@ -170,9 +170,9 @@ export default function Home() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-3 text-gray-900">Kauf & Ankauf</h3>
+                  <h3 className="text-xl font-bold mb-3 text-gray-900">Kauf- & Verkaufsbegleitung</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Begleitung beim Erwerb von Bestandsobjekten und Grundstücken.
+                    Wir schätzen den Sanierungsaufwand ab und beraten Sie zum Kauf oder Verkauf.
                   </p>
                 </div>
               </Card>
@@ -257,7 +257,7 @@ export default function Home() {
               {
                 step: "1",
                 title: "Erstgespräch & Bestandsaufnahme",
-                desc: "Gemeinsames Kennenlernen, Klärung Ihrer Ziele, Budgetrahmen und Rahmenbedingungen vor Ort.",
+                desc: "Gemeinsames Kennenlernen, Klärung Ihrer Ziele, Budgetrahmen und Prüfung der Vorortgegebenheiten.",
               },
               {
                 step: "2",
@@ -352,7 +352,7 @@ export default function Home() {
                 Gerne besprechen wir Ihr Vorhaben
               </h2>
               <p className="text-xl text-blue-100 max-w-2xl mx-auto mb-8">
-                Ob Neubau, Sanierung, Projektierung oder der Erwerb einer Bestandsimmobilie
+                Ob Neubau, Sanierung, Projektierung oder Kauf- & Verkaufsbegleitung
                 mit Entwicklungspotenzial – wir freuen uns auf ein erstes, unverbindliches Gespräch.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

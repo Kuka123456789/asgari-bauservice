@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Kontakt - BAU STERN ART GmbH Hamburg",
-  description: "Kontaktieren Sie BAU STERN ART GmbH für Ihr Bauprojekt in Hamburg. Neubau, Sanierung, Projektierung oder Kauf & Ankauf – wir beraten Sie gerne.",
+  description: "Kontaktieren Sie BAU STERN ART GmbH für Ihr Bauprojekt in Hamburg. Neubau, Sanierung, Projektierung oder Kauf- & Verkaufsbegleitung – wir beraten Sie gerne.",
 };
 
 export default function KontaktPage() {
@@ -232,36 +232,6 @@ export default function KontaktPage() {
                 </div>
               </Card>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Makler Services Hinweis */}
-      <section className="py-12 bg-blue-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6 p-6 bg-white rounded-xl shadow-sm">
-            <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                <svg className="w-6 h-6 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                </svg>
-              </div>
-              <div>
-                <p className="font-semibold text-gray-900">Immobilie kaufen oder verkaufen?</p>
-                <p className="text-sm text-gray-600">Besuchen Sie unsere Makler-Website für Immobilienangebote und Bewertungen.</p>
-              </div>
-            </div>
-            <a
-              href="https://www.bausternart.de"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-blue-800 text-white px-5 py-2.5 rounded-lg font-medium hover:bg-blue-900 transition-colors whitespace-nowrap"
-            >
-              bausternart.de
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </a>
           </div>
         </div>
       </section>

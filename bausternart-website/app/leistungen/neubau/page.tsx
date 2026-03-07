@@ -131,7 +131,7 @@ export default function NeubauPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Volksdorfer Grenzweg</h3>
+                <h3 className="text-xl font-bold mb-3">Volksdorf</h3>
                 <p className="text-sm text-orange-600 font-medium mb-3">Doppelhaus & Einfamilienhaus</p>
                 <p className="text-gray-600 text-sm">
                   Im grünen Stadtteil Volksdorf entstand auf einem ca. 1.000 m² großen Grundstück
@@ -144,7 +144,7 @@ export default function NeubauPage() {
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Wensenbalken</h3>
+                <h3 className="text-xl font-bold mb-3">Duvenstedt</h3>
                 <p className="text-sm text-orange-600 font-medium mb-3">Wohnen mit Klinkercharakter</p>
                 <p className="text-gray-600 text-sm">
                   Auch hier wurden ein Doppelhaus und ein Einfamilienhaus realisiert.

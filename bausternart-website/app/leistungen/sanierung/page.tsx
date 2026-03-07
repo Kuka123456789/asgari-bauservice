@@ -39,7 +39,7 @@ export default function SanierungPage() {
                 Sanierung mit Konzept
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Wir führen Teil- und Kernsanierungen im Wohnbereich durch und koordinieren
+                Wir führen Sanierungen im Wohnbereich durch und koordinieren
                 alle Gewerke zentral über unser Büro.
               </p>
 
@@ -49,7 +49,7 @@ export default function SanierungPage() {
                   "Bestandsaufnahme und Einschätzung des Sanierungsumfangs",
                   "Entwicklung eines technisch und wirtschaftlich sinnvollen Sanierungskonzepts",
                   "Koordination von Abbruch, Rohbau, Ausbau und Haustechnik",
-                  "Badsanierungen, Grundrissanpassungen, Modernisierung von Küche und Innenausbau",
+                  "Grundrissanpassungen, Innenausbau, Hochbau, insbesondere Zimmererarbeiten",
                   "Energetische Sanierung (Dämmung, Fenster, Heizung in Abstimmung mit Fachplanern)",
                   "Organisation von Abnahmen und Dokumentation der Maßnahmen",
                 ].map((item, index) => (
@@ -130,7 +130,7 @@ export default function SanierungPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Sülldorfer Brooksweg</h3>
+                <h3 className="text-xl font-bold mb-3">Rissen</h3>
                 <p className="text-sm text-blue-600 font-medium mb-3">Vom Doppelhaus zum Mehrfamilienhaus</p>
                 <p className="text-gray-600 text-sm">
                   Ein Doppelhaus aus den 1960er Jahren in Hamburg-Rissen wurde im Rahmen einer
@@ -143,7 +143,7 @@ export default function SanierungPage() {
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Saseler Chaussee</h3>
+                <h3 className="text-xl font-bold mb-3">Sasel</h3>
                 <p className="text-sm text-blue-600 font-medium mb-3">Komplette Wohnungssanierung</p>
                 <p className="text-gray-600 text-sm">
                   Eine 1-Zimmer-Wohnung mit ca. 45 m² wurde innerhalb weniger Wochen umfassend saniert:
@@ -155,7 +155,7 @@ export default function SanierungPage() {
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Saseler Straße</h3>
+                <h3 className="text-xl font-bold mb-3">Sasel</h3>
                 <p className="text-sm text-blue-600 font-medium mb-3">Reihenhaus mit neuer Substanz</p>
                 <p className="text-gray-600 text-sm">
                   Ein Reihenhaus aus den 1960er Jahren wurde kernsaniert und gleichzeitig
@@ -167,8 +167,8 @@ export default function SanierungPage() {
 
             <Card>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-3">Halstenbeker Straße</h3>
-                <p className="text-sm text-blue-600 font-medium mb-3">Badsanierung</p>
+                <h3 className="text-xl font-bold mb-3">Halstenbek</h3>
+                <p className="text-sm text-blue-600 font-medium mb-3">Komplettsanierung</p>
                 <p className="text-gray-600 text-sm">
                   Ein in die Jahre gekommenes Bad mit technischen Mängeln wurde komplett erneuert:
                   Modernes Bad mit erneuerter Installation, Abdichtung und hochwertiger Ausstattung.

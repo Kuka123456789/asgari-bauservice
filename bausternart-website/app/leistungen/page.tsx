@@ -27,13 +27,13 @@ export default function LeistungenPage() {
       href: "/leistungen/sanierung",
       title: "Sanierung",
       subtitle: "Bestehendes erhalten, Werte steigern",
-      description: "Teil- und Kernsanierungen im Wohnbereich. Wir entwickeln ein technisch und wirtschaftlich sinnvolles Sanierungskonzept und koordinieren alle Gewerke zentral.",
+      description: "Sanierungen im Wohnbereich. Wir entwickeln ein technisch und wirtschaftlich sinnvolles Sanierungskonzept und koordinieren alle Gewerke zentral.",
       color: "blue",
       features: [
         "Kernsanierungen",
         "Modernisierung & Renovierung",
         "Energetische Sanierung",
-        "Badsanierungen",
+        "Dachsanierung",
       ],
     },
     {
@@ -43,23 +43,23 @@ export default function LeistungenPage() {
       description: "Wir entwickeln aus Ihrer Idee ein strukturiertes Projekt mit klaren Zahlen, Abläufen und Entscheidungsgrundlagen. Grundstück, Bestand, Baurecht, Nutzung, Baukosten und Zeitplanung.",
       color: "purple",
       features: [
-        "Konzeptentwicklung",
+        "Planerstellung & Visualisierung",
         "Kosten- & Zeitplanung",
-        "Wirtschaftlichkeitsbetrachtung",
-        "Machbarkeitsstudien",
+        "Wirtschaftlichkeitsberechnung",
+        "Konzeptentwicklung",
       ],
     },
     {
       href: "/leistungen/kauf-ankauf",
-      title: "Kauf & Ankauf",
+      title: "Kauf- & Verkaufsbegleitung",
       subtitle: "Bestandsimmobilien mit Entwicklungspotenzial",
-      description: "Wir prüfen Bestandsimmobilien und Grundstücke auf ihr bauliches Potenzial, schätzen Sanierungsaufwand ab und kaufen geeignete Objekte für eigene Projekte an.",
+      description: "Wir prüfen Bestandsimmobilien und Grundstücke auf ihr bauliches Potenzial, schätzen den Sanierungsaufwand ab und beraten Sie zum Kauf oder Verkauf.",
       color: "green",
       features: [
         "Objektprüfung & Analyse",
         "Kaufbegleitung",
         "Potenzialeinschätzung",
-        "Ankauf zur Projektentwicklung",
+        "Verkaufsberatung",
       ],
     },
   ];
@@ -84,7 +84,7 @@ export default function LeistungenPage() {
               Unsere Leistungen
             </h1>
             <p className="text-xl text-blue-100">
-              Neubau, Sanierung, Projektierung und Kauf & Ankauf –
+              Neubau, Sanierung, Projektierung und Kauf- & Verkaufsbegleitung –
               wir bieten Ihnen professionelle Baudienstleistungen aus einer Hand.
               Als Generalübernehmer koordinieren wir alle Schritte für Sie.
             </p>

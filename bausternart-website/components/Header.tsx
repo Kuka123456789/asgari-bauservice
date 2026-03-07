@@ -37,7 +37,7 @@ export default function Header() {
     { href: "/leistungen/neubau", label: "Neubau" },
     { href: "/leistungen/sanierung", label: "Sanierung" },
     { href: "/leistungen/projektierung", label: "Projektierung" },
-    { href: "/leistungen/kauf-ankauf", label: "Kauf & Ankauf" },
+    { href: "/leistungen/kauf-ankauf", label: "Kauf- & Verkaufsbegleitung" },
   ];
 
   return (
