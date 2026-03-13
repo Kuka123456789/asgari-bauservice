@@ -42,7 +42,7 @@ export default function LeistungenPage() {
       href: "/leistungen/projektierung",
       title: "Projektierung & Planung",
       subtitle: "Aus einer Idee wird ein tragfähiges Bauprojekt",
-      description: "Effiziente Projektplanung und Kostenkalkulation. Wir entwickeln aus Ihrer Idee ein strukturiertes Projekt – mit klaren Zahlen, Abläufen und Entscheidungsgrundlagen.",
+      description: "Effiziente Projektplanung und Kostenkalkulation. Wir entwickeln aus Ihrer Idee ein strukturiertes Projekt – mit klaren Zahlen, Abläufen und Entscheidungsgrundlagen. Grundstück, Bestand, Baurecht, Nutzung, Baukosten und Zeitplanung.",
       nutzen: "Sie wissen von Anfang an, worauf es ankommt, ohne Überraschungen erleben zu müssen.",
       color: "purple",
       features: [
@@ -66,6 +66,20 @@ export default function LeistungenPage() {
         "Verkaufsberatung",
       ],
     },
+    {
+      href: "/leistungen/zimmermann-dachdecker",
+      title: "Zimmermann & Dachdecker",
+      subtitle: "Dach & Holzbau – unser Kerngeschäft",
+      description: "Dachsanierungen und Dachneubauten bilden einen zentralen Bestandteil unseres Kerngeschäfts. Von der Holzkonstruktion bis zur fertigen Dacheindeckung – alles aus einer Hand.",
+      nutzen: "Fachgerechte, langlebige Ausführung mit koordinierter Gewerkesteuerung.",
+      color: "amber",
+      features: [
+        "Dachsanierung & Dachneubau",
+        "Zimmermannsarbeiten",
+        "Gauben & Dachausbau",
+        "Dacheindeckung & Dämmung",
+      ],
+    },
   ];
 
   const getColorClasses = (color: string) => {
@@ -74,6 +88,7 @@ export default function LeistungenPage() {
       blue: { bg: "bg-blue-100", text: "text-blue-600", gradient: "from-blue-500 to-blue-600" },
       purple: { bg: "bg-purple-100", text: "text-purple-600", gradient: "from-purple-500 to-purple-600" },
       green: { bg: "bg-green-100", text: "text-green-600", gradient: "from-green-500 to-green-600" },
+      amber: { bg: "bg-amber-100", text: "text-amber-600", gradient: "from-amber-500 to-amber-600" },
     };
     return colors[color] || colors.blue;
   };
@@ -126,6 +141,11 @@ export default function LeistungenPage() {
                         {leistung.color === "green" && (
                           <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                          </svg>
+                        )}
+                        {leistung.color === "amber" && (
+                          <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
                           </svg>
                         )}
                       </div>

@@ -60,13 +60,13 @@ export default function Home() {
                   Jetzt Projekt kostenlos besprechen
                 </Button>
                 <Button
-                  href="/referenzen"
+                  href="/kontakt"
                   variant="outline"
                   size="lg"
                   className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-blue-900"
                 >
                   <ImageIcon className="w-5 h-5 mr-2 inline" />
-                  Referenzen ansehen
+                  Unverbindliches Angebot erhalten
                 </Button>
               </div>
             </div>
@@ -175,7 +175,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-bold mb-3 text-gray-900">Kauf & Entwicklung</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    Wir unterstützen beim Kauf von Grundstücken und Immobilien in Hamburg und Umgebung und prüfen deren bauliches Entwicklungspotenzial.
+                    Wir unterstützen beim Kauf von Grundstücken und Immobilien in Hamburg und Umgebung. Ferner prüfen deren bauliches Entwicklungspotenzial in technisch, wirtschaftlich und realistisch Hinsicht.
                   </p>
                 </div>
               </Card>

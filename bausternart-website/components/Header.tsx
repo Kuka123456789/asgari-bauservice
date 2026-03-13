@@ -38,6 +38,7 @@ export default function Header() {
     { href: "/leistungen/sanierung", label: "Sanierung" },
     { href: "/leistungen/projektierung", label: "Projektierung" },
     { href: "/leistungen/kauf-ankauf", label: "Kauf- & Verkaufsbegleitung" },
+    { href: "/leistungen/zimmermann-dachdecker", label: "Zimmermann & Dachdecker" },
   ];
 
   return (

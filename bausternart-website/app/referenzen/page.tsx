@@ -11,61 +11,50 @@ export const metadata: Metadata = {
 export default function ReferenzenPage() {
   const neubauProjekte = [
     {
-      type: "Einfamilienhaus",
-      title: "Volksdorf",
-      description: "Im grünen Stadtteil Hamburg-Volksdorf entstand auf einem ca. 450 m² großen Grundstück ein Einfamilienhaus mit moderner Haustechnik und hervorragender Dämmung. Mit rund 144 m² Wohnfläche wurde ein energieeffizientes Zuhause geschaffen.",
+      type: "Ein- und Zweifamilienhaus",
+      title: "Volksdorfer Grenzweg",
+      description: "Im grünen Stadtteil Hamburg-Volksdorf entstand auf einem ca. 1.000 m² großen Grundstück der Neubau eines Doppelhauses und eines Einfamilienhauses mit insgesamt rund 360 m² Wohnfläche und großzügigen Gartenbereichen.",
       image: "/images/project1/WhatsApp Image 2025-11-04 at 17.44.12.jpeg",
-    },
-    {
-      type: "Doppelhaus",
-      title: "Volksdorf",
-      description: "Im gefragten Stadtteil Hamburg-Volksdorf entstand ein zweigeschossiges Doppelhaus mit Schleppdachgauben und großzügigem Balkon in Südausrichtung. Die durchdachte Planung sorgt für helle Räume und zeitgemäße Architektur.",
-      image: "/images/project1/WhatsApp Image 2025-11-04 at 17.45.18.jpeg",
     },
   ];
 
   const sanierungProjekte = [
     {
-      title: "Rissen",
-      subtitle: "Kernsanierung und Nutzungsänderung",
-      description: "Am Sülldorfer Brooksweg wurde ein Doppelhaus umfassend kernsaniert und durch eine Nutzungsänderung in drei Wohneinheiten umgewandelt. Das Projekt umfasst Dachausbau mit Giebelgauben, Vordächer und eine Dachterrasse.",
+      title: "Sülldorfer Brooksweg",
+      subtitle: "Mehrfamilienhaus",
+      description: "Kernsanierung eines Doppelhauses aus den 1960er-Jahren mit umfassender Erneuerung der Bausubstanz. Durch Nutzungsänderung entstanden drei Wohneinheiten statt ursprünglich zwei.",
       image: "/images/projects/IMG_0896.jpg",
     },
     {
-      title: "Sasel",
-      subtitle: "Wohnungssanierung",
-      description: "Komplette Sanierung einer 1-Zimmer-Wohnung mit ca. 45 m² inklusive neuer Wand- und Deckenflächen, Bodenbeläge, Innentüren sowie komplett erneuertem Bad und Küche.",
+      title: "Saseler Chaussee",
+      subtitle: "1-Zimmer-Wohnung",
+      description: "Umfassende Sanierung einer 1-Zimmer-Wohnung mit ca. 45 m² inklusive neuer Wand- und Deckenflächen, Bodenbeläge, Innentüren sowie komplett erneuertem Bad und Küche.",
       image: "/images/projects/IMG_0522.jpg",
     },
     {
-      title: "Eppendorf",
-      subtitle: "Dachsanierung",
-      description: "Im Bestand eines Wohngebäudes in Hamburg-Eppendorf wurde das Dach vollständig überarbeitet mit Zimmermannsarbeiten, Aufsparrendämmung und neuer Dacheindeckung.",
+      title: "Saseler Straße",
+      subtitle: "Endreihenhaus",
+      description: "Kernsanierung eines Reihenhauses aus den 1960er-Jahren mit funktionaler und optischer Modernisierung von Dacheindeckung, Küche, Bädern, Oberflächen und Haustechnik.",
       image: "/images/projects/IMG_4377.jpg",
     },
   ];
 
   const geplanteNeubau = [
     {
-      type: "Einfamilienhaus",
-      title: "Volksdorf",
-      description: "In ruhiger Lage von Hamburg-Volksdorf entsteht ein zweigeschossiges Einfamilienhaus mit straßenseitiger Traufausrichtung. Auf rund 195 m² Wohnfläche. Fertigstellung Ende 2026.",
-    },
-    {
-      type: "Doppelhaus & Einfamilienhaus",
-      title: "Duvenstedt",
+      type: "Ein- und Zweifamilienhaus",
+      title: "Wensenbalken",
       description: "Realisierung eines Doppelhauses und eines Einfamilienhauses in rotem Klinker mit klarer Formensprache und familiengerechter Raumaufteilung für zeitlose, langlebige Architektur.",
     },
   ];
 
   const geplanteeSanierung = [
     {
-      title: "Schnelsen",
+      title: "Lüttenredder",
       subtitle: "Kernsanierung",
       description: "Am Lüttenredder ist eine Kernsanierung geplant mit neuer Klinkerfassade, modernen Fenstern und Türen sowie Fußbodenheizung.",
     },
     {
-      title: "Fuhlsbüttel",
+      title: "Lupinenkamp",
       subtitle: "Dachsanierung",
       description: "Am Lupinenkamp ist eine Dachsanierung vorgesehen, inklusive zweier Schleppdachgauben, Dachinnenausbau und neuer Dacheindeckung.",
     },
