@@ -321,11 +321,6 @@ export default function Home() {
                 Unser Ziel ist nicht nur ein fertiges Gebäude, sondern ein Ergebnis, mit dem Sie
                 langfristig zufrieden sind.
               </p>
-              <div className="p-6 bg-blue-50 rounded-xl border-l-4 border-blue-600">
-                <p className="text-lg font-medium text-gray-900 italic">
-                  &ldquo;Jedes Problem hat eine Lösung – unsere Aufgabe ist es, sie frühzeitig zu finden.&rdquo;
-                </p>
-              </div>
             </div>
 
             <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
