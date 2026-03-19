@@ -51,12 +51,12 @@ export default function ReferenzenPage() {
     {
       title: "Lüttenredder",
       subtitle: "Kernsanierung",
-      description: "Am Lüttenredder ist eine Kernsanierung geplant mit neuer Klinkerfassade, modernen Fenstern und Türen sowie Fußbodenheizung.",
+      description: "Im ruhigen Wohngebiet Hamburg-Schnelsen ist am Lüttenredder eine Kernsanierung geplant. Geplant sind eine neue Klinkerfassade, moderne Fenster und Türen sowie das Einfräsen einer Fußbodenheizung für mehr Komfort und nachhaltige Technik.",
     },
     {
       title: "Lupinenkamp",
       subtitle: "Dachsanierung",
-      description: "Am Lupinenkamp ist eine Dachsanierung vorgesehen, inklusive zweier Schleppdachgauben, Dachinnenausbau und neuer Dacheindeckung.",
+      description: "Im beliebten Wohnumfeld Hamburg-Fuhlsbüttel am Lupinenkamp ist eine Dachsanierung vorgesehen, inklusive zweier Schleppdachgauben für mehr Licht und Raumgefühl sowie Dachinnenausbau und neuer Dacheindeckung.",
     },
   ];
 

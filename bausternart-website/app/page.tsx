@@ -63,10 +63,24 @@ export default function Home() {
                   href="/kontakt"
                   variant="outline"
                   size="lg"
-                  className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-blue-900"
+                  className="!bg-white/10 backdrop-blur-sm !border-white/30 !text-white hover:!bg-white/25 hover:!shadow-lg hover:!shadow-white/10"
                 >
                   <ImageIcon className="w-5 h-5 mr-2 inline" />
-                  Unverbindliches Angebot erhalten
+                  <span className="flex flex-col items-start leading-tight">
+                    <span>Unverbindliches Angebot erhalten</span>
+                    <span className="text-xs font-normal opacity-80">(gerne, wenn Pläne bereit liegen und eingesendet werden können, um den Prozess zu beschleunigen)</span>
+                  </span>
+                </Button>
+              </div>
+              <div className="mt-4">
+                <Button
+                  href="/referenzen"
+                  variant="outline"
+                  size="lg"
+                  className="!bg-white/10 backdrop-blur-sm !border-white/30 !text-white hover:!bg-white/25 hover:!shadow-lg hover:!shadow-white/10"
+                >
+                  <ImageIcon className="w-5 h-5 mr-2 inline" />
+                  Referenzen ansehen
                 </Button>
               </div>
             </div>
@@ -198,32 +212,27 @@ export default function Home() {
               {
                 icon: UsersIcon,
                 title: "Generalübernehmer-Prinzip",
-                desc: "Ein zentraler Auftragnehmer für Planung, Koordination und Umsetzung",
+                desc: "Ein zentraler Auftragnehmer für Planung, Koordination und Umsetzung.",
               },
               {
                 icon: CheckCircleIcon,
                 title: "Transparente Kosten",
-                desc: "Realistische Kalkulationen ohne versteckte Überraschungen",
+                desc: "Realistische Kalkulationen ohne versteckte Überraschungen.",
               },
               {
                 icon: RocketIcon,
                 title: "Zuverlässige Terminplanung",
-                desc: "Strukturierte Abläufe und konsequente Bauüberwachung",
+                desc: "Strukturierte Abläufe und konsequente Bauüberwachung.",
               },
               {
                 icon: StarIcon,
                 title: "Regionale Expertise",
-                desc: "Erfahrung mit Bauprojekten in Hamburg und Umgebung",
+                desc: "Erfahrung mit Bauprojekten in Hamburg und Umgebung.",
               },
               {
                 icon: ChatIcon,
                 title: "Persönliche Betreuung",
-                desc: "Direkte Kommunikation, kurze Wege und feste Ansprechpartner",
-              },
-              {
-                icon: TrophyIcon,
-                title: "Erfahrung seit 2018",
-                desc: "Langjährige Expertise im Hamburger Immobilienmarkt",
+                desc: "Direkte Kommunikation, kurze Wege und feste Ansprechpartner.",
               },
             ].map((item, index) => (
               <div key={index} className="flex gap-4 items-start p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors">
@@ -260,7 +269,7 @@ export default function Home() {
               {
                 step: "1",
                 title: "Erstgespräch & Beratung",
-                desc: "Wir hören zu, analysieren Ihre Anforderungen und besprechen erste Möglichkeiten. Klärung von Budgetrahmen und Prüfung der Vorortgegebenheiten.",
+                desc: "Wir hören zu, analysieren Ihre Anforderungen und besprechen erste Möglichkeiten.",
               },
               {
                 step: "2",
@@ -366,7 +375,7 @@ export default function Home() {
                   href="/referenzen"
                   variant="outline"
                   size="lg"
-                  className="bg-white/10 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-blue-900"
+                  className="!bg-white/10 backdrop-blur-sm !border-white/30 !text-white hover:!bg-white/25 hover:!shadow-lg hover:!shadow-white/10"
                 >
                   <ImageIcon className="w-5 h-5 mr-2 inline" />
                   Referenzen ansehen

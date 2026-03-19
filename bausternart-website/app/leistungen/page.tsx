@@ -198,7 +198,7 @@ export default function LeistungenPage() {
             <Button href="/kontakt" variant="secondary">
               Jetzt Anfrage stellen
             </Button>
-            <Button href="/referenzen" variant="outline" className="bg-white/10 border-white text-white hover:bg-white hover:text-gray-900">
+            <Button href="/referenzen" variant="outline" className="!bg-white/10 !border-white/30 !text-white hover:!bg-white/25 hover:!shadow-lg hover:!shadow-white/10">
               Referenzen ansehen
             </Button>
           </div>

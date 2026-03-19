@@ -195,7 +195,7 @@ export default function KaufAnkaufPage() {
             <Button href="/kontakt" variant="secondary">
               Jetzt unverbindliche Beratung anfragen
             </Button>
-            <Button href="/kontakt" variant="outline" className="bg-white/10 border-white text-white hover:bg-white hover:text-green-800">
+            <Button href="/kontakt" variant="outline" className="!bg-white/10 !border-white/30 !text-white hover:!bg-white/25 hover:!shadow-lg hover:!shadow-white/10">
               Objektbewertung & Kaufprüfung sichern
             </Button>
           </div>
