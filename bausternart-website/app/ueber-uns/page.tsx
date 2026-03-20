@@ -114,11 +114,6 @@ export default function UeberUnsPage() {
                     großen Wert auf transparente Abstimmungen, klare Entscheidungen und
                     nachvollziehbare Prozesse. So werden Projekte planbar statt kompliziert.
                   </p>
-                  <div className="p-4 bg-white rounded-lg border-l-4 border-blue-600">
-                    <p className="text-lg font-medium text-gray-900 italic">
-                      &ldquo;Jedes Problem hat eine Lösung – unsere Aufgabe ist es, sie frühzeitig zu finden.&rdquo;
-                    </p>
-                  </div>
                 </div>
               </Card>
             </div>
