@@ -31,11 +31,11 @@ export default function ZimmermannDachdeckerPage() {
         </div>
       </section>
 
-      {/* Transition */}
-      <div className="h-16 md:h-24 bg-gradient-to-b from-amber-600 via-amber-200/30 to-white" />
-
       {/* Main Content */}
-      <section className="py-16 md:py-24">
+      <section
+        className="py-16 md:py-24"
+        style={{ background: 'linear-gradient(to bottom, #d97706 0%, #fde68a 5%, #ffffff 12%)' }}
+      >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -235,11 +235,11 @@ export default function ZimmermannDachdeckerPage() {
         </div>
       </section>
 
-      {/* Transition */}
-      <div className="h-16 md:h-24 bg-gradient-to-b from-white via-amber-100/30 to-amber-800" />
-
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-amber-800 to-amber-900 text-white relative overflow-hidden">
+      <section
+        className="py-16 md:py-24 text-white relative overflow-hidden"
+        style={{ background: 'linear-gradient(to bottom, #ffffff 0%, #fde68a 5%, #92400e 14%, #78350f 100%)' }}
+      >
         <div className="blob w-72 h-72 bg-amber-500/10 top-0 right-0" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

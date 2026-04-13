@@ -27,11 +27,11 @@ export default function KontaktPage() {
         </div>
       </section>
 
-      {/* Transition */}
-      <div className="h-16 md:h-24 bg-gradient-to-b from-blue-700 via-blue-200/30 to-white" />
-
       {/* Contact Section */}
-      <section className="py-16 md:py-24">
+      <section
+        className="py-16 md:py-24"
+        style={{ background: 'linear-gradient(to bottom, #1d4ed8 0%, #bfdbfe 5%, #ffffff 12%)' }}
+      >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}

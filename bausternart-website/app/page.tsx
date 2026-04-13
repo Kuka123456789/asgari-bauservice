@@ -109,11 +109,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Transition: Hero → Schwerpunkte */}
-      <div className="h-24 md:h-32 bg-gradient-to-b from-slate-900 via-blue-900/40 to-gray-50" />
-
-      {/* Schwerpunkte Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50 via-white to-white relative overflow-hidden">
+      {/* Schwerpunkte Section — gradient starts from hero's dark color */}
+      <section
+        className="py-20 md:py-32 relative overflow-hidden"
+        style={{ background: 'linear-gradient(to bottom, #0f172a 0%, #1e3a8a 4%, #f1f5f9 14%, #ffffff 30%)' }}
+      >
         {/* Decorative blobs */}
         <div className="blob w-72 h-72 bg-blue-200/20 top-20 -left-20" />
         <div className="blob w-96 h-96 bg-orange-200/15 bottom-10 -right-24" />
@@ -206,7 +206,7 @@ export default function Home() {
       </section>
 
       {/* Ihr Vorteil Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-white to-white relative overflow-hidden">
+      <section className="py-20 md:py-32 bg-white relative overflow-hidden">
         {/* Decorative accent */}
         <div className="blob w-64 h-64 bg-blue-100/20 top-0 right-0" />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -258,11 +258,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Transition: Ihr Vorteil → Projektablauf */}
-      <div className="h-24 md:h-32 bg-gradient-to-b from-white via-blue-100/50 to-blue-900" />
-
-      {/* Projektablauf Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-blue-900 via-blue-800 to-blue-900 text-white relative overflow-hidden">
+      {/* Projektablauf Section — gradient fades in from white at top */}
+      <section
+        className="py-20 md:py-32 text-white relative overflow-hidden"
+        style={{ background: 'linear-gradient(to bottom, #ffffff 0%, #dbeafe 6%, #1e40af 14%, #1e3a8a 30%, #1e40af 80%, #1e3a8a 100%)' }}
+      >
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243 8.2 0H5.374zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657 8.787 5.07 13.857 0H11.03z' fill='%23ffffff' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E")`,
@@ -314,11 +314,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Transition: Projektablauf → Philosophie */}
-      <div className="h-24 md:h-32 bg-gradient-to-b from-blue-900 via-blue-800/30 to-gray-50" />
-
-      {/* Philosophie Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50 to-gray-50/80 relative overflow-hidden">
+      {/* Philosophie Section — gradient fades in from blue at top */}
+      <section
+        className="py-20 md:py-32 relative overflow-hidden"
+        style={{ background: 'linear-gradient(to bottom, #1e3a8a 0%, #93c5fd 6%, #f1f5f9 14%, #f9fafb 30%)' }}
+      >
         {/* Decorative elements */}
         <div className="blob w-80 h-80 bg-blue-100/15 -top-10 -right-20" />
         <div className="blob w-60 h-60 bg-orange-100/10 bottom-0 -left-10" />
@@ -361,7 +361,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50/80 to-white">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50 to-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-3xl p-12 md:p-16 text-center shadow-2xl">
             <div className="absolute inset-0 opacity-10">

@@ -29,11 +29,11 @@ export default function KaufAnkaufPage() {
         </div>
       </section>
 
-      {/* Transition */}
-      <div className="h-16 md:h-24 bg-gradient-to-b from-green-600 via-green-200/30 to-white" />
-
       {/* Intro */}
-      <section className="py-16 md:py-24">
+      <section
+        className="py-16 md:py-24"
+        style={{ background: 'linear-gradient(to bottom, #16a34a 0%, #bbf7d0 5%, #ffffff 12%)' }}
+      >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
             <p className="text-lg text-gray-600 mb-8">
@@ -186,11 +186,11 @@ export default function KaufAnkaufPage() {
         </div>
       </section>
 
-      {/* Transition */}
-      <div className="h-16 md:h-24 bg-gradient-to-b from-white via-green-100/30 to-green-700" />
-
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-green-700 to-green-800 text-white relative overflow-hidden">
+      <section
+        className="py-16 md:py-24 text-white relative overflow-hidden"
+        style={{ background: 'linear-gradient(to bottom, #ffffff 0%, #bbf7d0 5%, #15803d 14%, #166534 100%)' }}
+      >
         <div className="blob w-72 h-72 bg-green-400/10 top-0 right-0" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">

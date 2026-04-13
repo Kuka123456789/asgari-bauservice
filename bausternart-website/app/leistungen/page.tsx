@@ -113,11 +113,11 @@ export default function LeistungenPage() {
         </div>
       </section>
 
-      {/* Transition */}
-      <div className="h-16 md:h-24 bg-gradient-to-b from-blue-700 via-blue-200/30 to-white" />
-
       {/* Leistungen Grid */}
-      <section className="py-16 md:py-24">
+      <section
+        className="py-16 md:py-24"
+        style={{ background: 'linear-gradient(to bottom, #1d4ed8 0%, #bfdbfe 5%, #ffffff 12%)' }}
+      >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {leistungen.map((leistung, index) => {

@@ -79,11 +79,11 @@ export default function ReferenzenPage() {
         </div>
       </section>
 
-      {/* Transition */}
-      <div className="h-16 md:h-24 bg-gradient-to-b from-blue-700 via-blue-200/30 to-white" />
-
       {/* Neubau Projekte - Realisiert */}
-      <section className="py-16 md:py-24">
+      <section
+        className="py-16 md:py-24"
+        style={{ background: 'linear-gradient(to bottom, #1d4ed8 0%, #bfdbfe 5%, #ffffff 12%)' }}
+      >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mb-12">
             <span className="inline-block px-4 py-2 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold mb-4">
