@@ -9,12 +9,14 @@ export const metadata: Metadata = {
 
 export default function KontaktPage() {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* Page Header */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="bg-gradient-to-br from-blue-950 via-blue-800 to-blue-700 text-white py-16 md:py-24 relative overflow-hidden">
+        <div className="blob w-96 h-96 bg-blue-400/10 -top-20 -right-20" />
+        <div className="blob w-64 h-64 bg-cyan-300/10 bottom-0 left-10" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-3xl md:text-5xl font-bold mb-6">
               Kontaktieren Sie uns
             </h1>
             <p className="text-xl text-blue-100">
@@ -24,6 +26,9 @@ export default function KontaktPage() {
           </div>
         </div>
       </section>
+
+      {/* Transition */}
+      <div className="h-16 md:h-24 bg-gradient-to-b from-blue-700 via-blue-200/30 to-white" />
 
       {/* Contact Section */}
       <section className="py-16 md:py-24">

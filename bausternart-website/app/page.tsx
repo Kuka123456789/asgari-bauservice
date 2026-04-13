@@ -35,7 +35,7 @@ export default function Home() {
                 <span className="text-blue-200 text-sm font-medium">Hanseatisches Bauunternehmen</span>
               </div>
 
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+              <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                 <span className="text-white">Ihr Baupartner in Hamburg –</span>
                 <span className="block bg-gradient-to-r from-blue-400 via-blue-300 to-cyan-300 bg-clip-text text-transparent mt-2">
                   Neubau, Sanierung &
@@ -109,9 +109,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Transition: Hero → Schwerpunkte */}
+      <div className="h-24 md:h-32 bg-gradient-to-b from-slate-900 via-blue-900/40 to-gray-50" />
+
       {/* Schwerpunkte Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50 to-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50 via-white to-white relative overflow-hidden">
+        {/* Decorative blobs */}
+        <div className="blob w-72 h-72 bg-blue-200/20 top-20 -left-20" />
+        <div className="blob w-96 h-96 bg-orange-200/15 bottom-10 -right-24" />
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16 animate-slide-up">
             <span className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
               Unsere Expertise
@@ -199,8 +206,10 @@ export default function Home() {
       </section>
 
       {/* Ihr Vorteil Section */}
-      <section className="py-20 md:py-32 bg-white">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-white to-white relative overflow-hidden">
+        {/* Decorative accent */}
+        <div className="blob w-64 h-64 bg-blue-100/20 top-0 right-0" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
               Ihr Vorsprung mit uns als Bauunternehmen in Hamburg
@@ -235,8 +244,8 @@ export default function Home() {
                 desc: "Direkte Kommunikation, kurze Wege und feste Ansprechpartner.",
               },
             ].map((item, index) => (
-              <div key={index} className="flex gap-4 items-start p-6 rounded-xl bg-gray-50 hover:bg-gray-100 transition-colors">
-                <div className="flex-shrink-0 w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center">
+              <div key={index} className="flex gap-4 items-start p-6 rounded-xl bg-gradient-to-br from-gray-50 to-blue-50/30 border border-gray-100/80 hover:from-blue-50/50 hover:to-blue-100/30 hover:border-blue-200/50 hover:shadow-md transition-all duration-300">
+                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-100 to-blue-200/60 rounded-lg flex items-center justify-center shadow-sm">
                   <item.icon className="w-6 h-6 text-blue-600" />
                 </div>
                 <div>
@@ -249,13 +258,19 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Transition: Ihr Vorteil → Projektablauf */}
+      <div className="h-24 md:h-32 bg-gradient-to-b from-white via-blue-100/50 to-blue-900" />
+
       {/* Projektablauf Section */}
-      <section className="py-20 md:py-32 bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 text-white relative overflow-hidden">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-blue-900 via-blue-800 to-blue-900 text-white relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0" style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54.627 0l.83.828-1.415 1.415L51.8 0h2.827zM5.373 0l-.83.828L5.96 2.243 8.2 0H5.374zM48.97 0l3.657 3.657-1.414 1.414L46.143 0h2.828zM11.03 0L7.372 3.657 8.787 5.07 13.857 0H11.03z' fill='%23ffffff' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E")`,
           }} />
         </div>
+        {/* Decorative orbs */}
+        <div className="blob w-48 h-48 bg-blue-400/10 top-10 left-10" />
+        <div className="blob w-64 h-64 bg-cyan-400/8 bottom-0 right-20" />
 
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
@@ -299,9 +314,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Transition: Projektablauf → Philosophie */}
+      <div className="h-24 md:h-32 bg-gradient-to-b from-blue-900 via-blue-800/30 to-gray-50" />
+
       {/* Philosophie Section */}
-      <section className="py-20 md:py-32 bg-gray-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50 to-gray-50/80 relative overflow-hidden">
+        {/* Decorative elements */}
+        <div className="blob w-80 h-80 bg-blue-100/15 -top-10 -right-20" />
+        <div className="blob w-60 h-60 bg-orange-100/10 bottom-0 -left-10" />
+
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <span className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold mb-4">
@@ -323,20 +345,23 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
-              <Image
-                src="/images/projects/IMG_4377.jpg"
-                alt="Saniertes Wohnhaus bei Nacht"
-                fill
-                className="object-cover"
-              />
+            <div className="relative">
+              <div className="absolute -inset-4 bg-gradient-to-br from-blue-200/30 to-orange-200/20 rounded-[2rem] blur-2xl" />
+              <div className="relative h-[500px] rounded-3xl overflow-hidden shadow-2xl">
+                <Image
+                  src="/images/projects/IMG_4377.jpg"
+                  alt="Saniertes Wohnhaus bei Nacht"
+                  fill
+                  className="object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 md:py-32">
+      <section className="py-20 md:py-32 bg-gradient-to-b from-gray-50/80 to-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="relative overflow-hidden bg-gradient-to-br from-blue-600 via-blue-700 to-blue-800 rounded-3xl p-12 md:p-16 text-center shadow-2xl">
             <div className="absolute inset-0 opacity-10">

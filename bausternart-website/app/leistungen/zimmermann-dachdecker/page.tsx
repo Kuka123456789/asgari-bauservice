@@ -10,15 +10,17 @@ export const metadata: Metadata = {
 
 export default function ZimmermannDachdeckerPage() {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* Page Header */}
-      <section className="bg-gradient-to-r from-amber-800 to-amber-600 text-white py-16 md:py-24">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="bg-gradient-to-br from-amber-900 via-amber-700 to-amber-600 text-white py-16 md:py-24 relative overflow-hidden">
+        <div className="blob w-96 h-96 bg-amber-400/10 -top-20 -right-20" />
+        <div className="blob w-64 h-64 bg-orange-300/10 bottom-0 left-10" />
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl">
-            <span className="inline-block px-4 py-2 bg-white/20 rounded-full text-sm font-medium mb-4">
+            <span className="inline-block px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-4">
               Leistung
             </span>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
+            <h1 className="text-3xl md:text-5xl font-bold mb-6">
               Zimmermannsarbeiten & Dachdeckerleistungen
             </h1>
             <p className="text-xl text-amber-100">
@@ -28,6 +30,9 @@ export default function ZimmermannDachdeckerPage() {
           </div>
         </div>
       </section>
+
+      {/* Transition */}
+      <div className="h-16 md:h-24 bg-gradient-to-b from-amber-600 via-amber-200/30 to-white" />
 
       {/* Main Content */}
       <section className="py-16 md:py-24">
@@ -114,7 +119,7 @@ export default function ZimmermannDachdeckerPage() {
       </section>
 
       {/* Example Projects */}
-      <section className="py-16 md:py-24 bg-gray-50">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-gray-50/50 to-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
             Realisierte Projekte
@@ -230,8 +235,12 @@ export default function ZimmermannDachdeckerPage() {
         </div>
       </section>
 
+      {/* Transition */}
+      <div className="h-16 md:h-24 bg-gradient-to-b from-white via-amber-100/30 to-amber-800" />
+
       {/* CTA Section */}
-      <section className="py-16 md:py-24 bg-amber-800 text-white">
+      <section className="py-16 md:py-24 bg-gradient-to-b from-amber-800 to-amber-900 text-white relative overflow-hidden">
+        <div className="blob w-72 h-72 bg-amber-500/10 top-0 right-0" />
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
             Ihr Dachprojekt besprechen?
