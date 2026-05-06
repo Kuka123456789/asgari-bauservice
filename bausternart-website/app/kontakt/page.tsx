@@ -262,7 +262,7 @@ export default function KontaktPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center text-sm text-gray-600">
             <p className="mb-1">
-              <strong>Sitz der Gesellschaft:</strong> Vizelinstraße 67, 22529 Hamburg
+              <strong>Sitz der Gesellschaft:</strong> Langbehnstraße 6, 22761 Hamburg-Bahrenfeld
             </p>
             <p>
               <strong>Geschäftsführer:</strong> B.Sc. Omid Asgari Dermanaki

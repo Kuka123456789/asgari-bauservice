@@ -103,8 +103,8 @@ export default function DatenschutzPage() {
           </p>
           <p>
             <strong>BAU STERN ART GmbH</strong><br />
-            Vizelinstraße 67<br />
-            22529 Hamburg<br />
+            Langbehnstraße 6<br />
+            22761 Hamburg-Bahrenfeld<br />
             Deutschland
           </p>
           <p>

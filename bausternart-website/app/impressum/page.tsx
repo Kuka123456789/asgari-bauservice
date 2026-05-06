@@ -15,8 +15,8 @@ export default function ImpressumPage() {
           <h2 className="text-2xl font-bold mt-8 mb-4">Angaben gemäß § 5 TMG</h2>
           <p>
             <strong>BAU STERN ART GmbH</strong><br />
-            Vizelinstraße 67<br />
-            22529 Hamburg<br />
+            Langbehnstraße 6<br />
+            22761 Hamburg-Bahrenfeld<br />
             Deutschland
           </p>
 
@@ -60,8 +60,8 @@ export default function ImpressumPage() {
           <h2 className="text-2xl font-bold mt-8 mb-4">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
           <p>
             B.Sc. Omid Asgari Dermanaki<br />
-            Vizelinstraße 67<br />
-            22529 Hamburg
+            Langbehnstraße 6<br />
+            22761 Hamburg-Bahrenfeld
           </p>
 
           <h2 className="text-2xl font-bold mt-8 mb-4">Haftungsausschluss</h2>
